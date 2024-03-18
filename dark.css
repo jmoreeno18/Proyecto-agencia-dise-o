@@ -1,0 +1,90 @@
+/*Variables*/
+:root{
+    --mx-width: 1320px;
+    --color-text-body: #D3D3D4;
+    --color-primary: #5956e9;
+    --color-secondary: #D3D3D4;
+    --color-banner: #27272E;
+    --color-text-btn: #fff;
+    --color-bg-btn: #2522ba;
+    --color-subtitle: #c75c6f;
+    --color-title: #D3D3D4;
+    --color-bg-services: #27272E;
+    --color-bg-projects: #292930;
+    --color-bg-dark: #27272E;
+    --color-hover-dark: #FFDC60;
+    --color-text-description: #99A1AA;
+    --color-borders: #393940;
+}
+
+body{
+    background-color: #212121;
+}
+.nav__title:hover{
+    color: var(--color-secondary);
+}
+.nav__title::before{
+    background-color: var(--color-secondary);
+}
+.submenu__title::after{
+    background-color: var(--color-secondary);
+}
+.submenu__title:hover{
+    color: var(--color-secondary);
+}
+.services__service{
+    background-color: var(--color-banner);
+    background: var(--color-banner);
+}
+.project__content{
+    background-color: var(--color-banner);
+}
+.project__title:hover{
+    color: var(--color-hover-dark);
+}
+.nav__submenu{
+    background-color: var(--color-banner);
+}
+
+.banner__btn{
+    background-color: var(--color-primary);
+}
+.menu__navbar--fixed{
+    background-color: var(--color-banner);
+}
+.project__content{
+    background-color: var(--color-banner);
+}
+.layout__contact::before{
+    background-color: var(--color-banner);
+}
+.contact__subtitle{
+    color: #FFDC60;
+}
+.contact__btn{
+    background-color: var(--color-primary);
+}
+.fleft__group{
+    background-color: #27272E;
+    box-shadow: none;
+}
+
+.fleft__form-control{
+    background-color: #212121;
+    color: var(--color-title);
+}
+.new__more{
+    color: var(--color-text-body);
+}
+.widget__link:hover{
+    color: var(--color-hover-dark);
+}
+.review__description{
+    color: var(--color-secondary);
+}
+.author__name{
+    color: var(--color-secondary);
+}
+.clients__img{
+    opacity: 0.9;
+}
